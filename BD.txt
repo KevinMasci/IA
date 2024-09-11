@@ -1,1 +1,5 @@
+:- dynamic persona/2.
+
+persona(123, ana).
+persona(321, kevin).
 
