@@ -10,7 +10,7 @@ Para cambiar a la consola de prolog y consultar un archivo
 
 Ejecutar gtrace.
 1. gtrace.
-2. Llamar a la regla, se abre el gtrace y con tab se va moviendo
+2. Llamar a la regla, se abre el gtrace y con espacio se va moviendo
 3. notrace.
 4. nodebug.
 

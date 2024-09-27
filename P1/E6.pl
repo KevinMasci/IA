@@ -35,3 +35,4 @@ ciudad(eduardo,roldan).
 ciudad(diego, casilda).
 ciudad(laura, rosario).
 ciudad(mauro, funes).
+
