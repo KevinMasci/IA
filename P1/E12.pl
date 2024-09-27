@@ -9,3 +9,4 @@ suma(N,Sum).
 inicio :- write('Ingrese un numero: '), read(N),suma(N, Sum),write(Sum).
 suma(0,0).
 suma(N,Sum):- M is N - 1, suma(M,Acum), Sum is Acum + N.
+

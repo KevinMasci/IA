@@ -18,4 +18,5 @@ grupo_pais(argentina,grupo2).
 grupo_pais(nigeria,grupo2).
 grupo_pais(holanda,grupo2).
 grupo_pais(escocia,grupo2).
+
 son_rivales(Pais1,Pais2):-grupo_pais(Pais1,X),grupo_pais(Pais2,X),Pais1\=Pais2.
