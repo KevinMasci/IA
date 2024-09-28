@@ -8,3 +8,5 @@ leer([]).
 mayor([],M,M).
 mayor([H|T],MHM,MD):- H >= MHM, mayor(T,H,MD).
 mayor([_|T],MHM,MD):- mayor(T,MHM,MD).
+
+%MHM: Maximo hasta el momento, MD:Maximo definitivo
