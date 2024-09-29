@@ -20,7 +20,7 @@ guardar:-tell('/workspaces/IA/P4/BD4.txt'), listing(gasto),told.
 
 inicio:-abrir,menu.
 
-menu:-writeln(''),writeln(''),writeln(''),
+menu:-writeln(''),
       writeln('Ingrese opcion: '),
       writeln('1-Cargar gasto supermercado'),
       writeln('2-Informe por gasto de supermercado'),
