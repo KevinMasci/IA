@@ -7,7 +7,8 @@ inicio:-writeln('Ingrese una cadena: '), read(C), contar_caracteres(C,Cant), wri
 contar_caracteres('',0).
 contar_caracteres(C,Cant):-sub_atom(C,1,_,0,Sub), contar_caracteres(Sub,CantSub),
                            Cant is CantSub + 1.
-
+                        
+%Misma lógica que en listas:
 contar_en_lista([],0).
 contar_en_lista([_|T],C):-contar_en_lista(T,CantCola),
                           C is CantCola + 1.
