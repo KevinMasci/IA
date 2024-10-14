@@ -1,0 +1,87 @@
+% electrodomesticos (nombre, tipo, tamaño/capacidad, eficiencia energetica, funciones especiales, precio, marca, inteligente)
+
+electrodomestico('samsung rt38k5032s8', refrigerador, 384, 'a++', ['no frost', 'twin cooling plus'], 700, 'samsung', si).
+electrodomestico('lg gc-b247sluv', refrigerador, 601, 'a+', ['instaview', 'no frost'], 1500, 'lg', si).
+electrodomestico('whirlpool 3lwtw4800yw', lavadora, 12, 'a+', ['ciclo rapido', 'ahorro de agua'], 500, 'whirlpool', no).
+electrodomestico('bosch wuq2448xes', lavadora, 8, 'a++', ['ecosilence', 'ciclo corto'], 700, 'bosch', si).
+electrodomestico('sony bravia kd-55x80j', televisor, 55, 'a', ['4k', 'smart tv'], 900, 'sony', si).
+electrodomestico('panasonic tx-43hx700e', televisor, 43, 'a++', ['hdr10', 'smart tv'], 600, 'panasonic', si).
+electrodomestico('lg mh6535gds', microondas, 23, 'a', ['coccion rapida', 'descongelado'], 150, 'lg', no).
+electrodomestico('philips hd9252/90', freidora, 4, 'a+', ['sin aceite', 'coccion rapida'], 180, 'philips', no).
+electrodomestico('mabe rme1436cbux0', refrigerador, 363, 'a+', ['no frost', 'multi-air flow'], 650, 'mabe', no).
+electrodomestico('electrolux erd44h2hwy', refrigerador, 440, 'a+', ['no frost', 'control electronico'], 1200, 'electrolux', si).
+electrodomestico('daewoo dwf-600w', lavadora, 10, 'a+', ['lavado rapido', 'funcion antiarrugas'], 400, 'daewoo', no).
+electrodomestico('samsung ww80j5555fx', lavadora, 8, 'a+++', ['ecobubble', 'higienizacion con vapor'], 850, 'samsung', si).
+electrodomestico('philips oled706/12', televisor, 65, 'a++', ['oled', 'smart tv', 'dolby vision'], 1800, 'philips', si).
+electrodomestico('hisense 50a6g', televisor, 50, 'a+', ['uhd 4k', 'smart tv'], 700, 'hisense', si).
+electrodomestico('whirlpool mwf421sl', microondas, 25, 'a+', ['grill', 'coccion rapida'], 220, 'whirlpool', no).
+electrodomestico('samsung mg23k3515aw', microondas, 23, 'a+', ['grill', 'descongelado rapido'], 250, 'samsung', no).
+electrodomestico('oster ckstdf102', freidora, 3.5, 'a', ['sin aceite', 'ajuste de temperatura'], 120, 'oster', no).
+electrodomestico('tristar fr-6980', freidora, 2, 'a+', ['sin aceite', 'coccion rapida'], 100, 'tristar', no).
+electrodomestico('beko dfs28020x', lavavajillas, 13, 'a++', ['lavado rapido', 'sensor de suciedad'], 500, 'beko', no).
+electrodomestico('bosch sms25aw05e', lavavajillas, 12, 'a++', ['ecosilence drive', 'vario speed plus'], 600, 'bosch', si).
+electrodomestico('daikin ftxb35c', aire_acondicionado, 3000, 'a++', ['modo silencioso', 'control remoto'], 900, 'daikin', si).
+electrodomestico('lg dualcool inverter v', aire_acondicionado, 2500, 'a+++', ['control wifi', 'bajo consumo'], 1200, 'lg', si).
+electrodomestico('samsung ww90t534dtw', lavadora, 9, 'a++', ['eco bubble', 'lavado rapido'], 650, 'samsung', si).
+electrodomestico('bosch kgn39vl35', refrigerador, 366, 'a++', ['no frost', 'vita fresh'], 800, 'bosch', no).
+electrodomestico('miele wwd 320', lavadora, 8, 'a++', ['capdosing', 'profi eco motor'], 1200, 'miele', si).
+electrodomestico('dyson v11', aspiradora, 0.76, 'a+', ['sin cable', 'sistema de filtracion avanzada'], 700, 'dyson', si).
+electrodomestico('samsung qe65q70t', televisor, 65, 'a+', ['qled', '4k', 'smart tv'], 1300, 'samsung', si).
+electrodomestico('haier hw80-bp14636n', lavadora, 8, 'a++', ['direct motion', 'ciclo corto'], 500, 'haier', no).
+electrodomestico('electrolux ew6f5723pb', lavadora, 7, 'a++', ['sensi care', 'anti-allergy'], 550, 'electrolux', si).
+electrodomestico('samsung mc28h5015ak', microondas, 28, 'a+', ['grill', 'coccion automatica'], 250, 'samsung', no).
+electrodomestico('braun mq9087x', batidora, 0.5, 'a+', ['sistema smart speed', 'vaso medidor incluido'], 150, 'braun', no).
+electrodomestico('philips hd9652/90', freidora, 7, 'a+', ['sin aceite', 'tecnologia rapid air'], 300, 'philips', no).
+electrodomestico('gorenje wa866', lavadora, 8, 'a++', ['total weight control', 'sistema anti-vibracion'], 400, 'gorenje', no).
+electrodomestico('panasonic nn-gt46kb', microondas, 31, 'a', ['grill', 'coccion combinada'], 180, 'panasonic', no).
+electrodomestico('lg sj3', barra_de_sonido, 300, 'a', ['bluetooth', 'subwoofer'], 180, 'lg', si).
+electrodomestico('siemens wm14t491es', lavadora, 9, 'a++', ['iqdrive', 'speed perfect'], 900, 'siemens', si).
+electrodomestico('dyson pure cool tp04', ventilador, 40, 'a+', ['purificador de aire', 'sensor de contaminacion'], 600, 'dyson', si).
+electrodomestico('moulinex hf802aa1', procesador_alimentos, 3, 'a+', ['variedad de cuchillas', 'funcion vapor'], 400, 'moulinex', no).
+electrodomestico('kitchenaid artisan', batidora, 4.8, 'a', ['10 velocidades', 'funcion amasado'], 500, 'kitchenaid', no).
+electrodomestico('whirlpool wre51akdww', refrigerador, 516, 'a++', ['no frost', 'fresh flow'], 1300, 'whirlpool', si).
+electrodomestico('samsung rs68n8320s9', refrigerador, 617, 'a+++', ['twin cooling', 'no frost'], 1800, 'samsung', si).
+electrodomestico('bosch waw28590eu', lavadora, 9, 'a+++', ['ecosilence', 'speedperfect'], 900, 'bosch', si).
+electrodomestico('siemens wm14t48xep', lavadora, 8, 'a+++', ['varioPerfect', 'waterPerfect plus'], 800, 'siemens', si).
+electrodomestico('tcl 55p617', televisor, 55, 'a+', ['4k', 'smart tv', 'hdr'], 600, 'tcl', si).
+electrodomestico('sharp lc-70uq10u', televisor, 70, 'a+', ['4k', 'smart tv', 'aquos'], 1600, 'sharp', si).
+electrodomestico('daewoo kor-6l77', microondas, 20, 'a', ['descongelado', 'coccion automatica'], 120, 'daewoo', no).
+electrodomestico('panasonic nn-st65kb', microondas, 32, 'a+', ['inverter', 'grill'], 300, 'panasonic', no).
+electrodomestico('tefal actifry genius xl', freidora, 1.7, 'a+', ['sin aceite', 'coccion automatica'], 280, 'tefal', no).
+electrodomestico('cecotec cleanfry', freidora, 3, 'a+', ['ajuste de temperatura', 'sin aceite'], 130, 'cecotec', no).
+electrodomestico('lg dfb325hm', lavavajillas, 14, 'a+++', ['quadwash', 'smartThinQ'], 850, 'lg', si).
+electrodomestico('siemens sn23ei14ce', lavavajillas, 13, 'a++', ['varioSpeed', 'homeConnect'], 700, 'siemens', si).
+electrodomestico('midea xtreme save', aire_acondicionado, 3200, 'a+++', ['wifi control', 'turbo cooling'], 1000, 'midea', si).
+electrodomestico('fujitsu asy35ui-llce', aire_acondicionado, 3000, 'a++', ['silent mode', 'inverter'], 1100, 'fujitsu', no).
+electrodomestico('oster fpsthb6600', batidora, 1.5, 'a', ['velocidad ajustable', 'varios accesorios'], 100, 'oster', no).
+electrodomestico('philips avance collection', licuadora, 1.5, 'a+', ['motor potente', 'filtro de pulpa'], 200, 'philips', no).
+electrodomestico('delonghi magnifica s', cafetera, 1.8, 'a+', ['molinillo integrado', 'sistema cappuccino'], 700, 'delonghi', si).
+electrodomestico('krups ea81p0', cafetera, 1.7, 'a+', ['molinillo integrado', 'auto-limpieza'], 600, 'krups', si).
+electrodomestico('beko dfn28422x', lavavajillas, 13, 'a++', ['auto programa', 'lavado rapido'], 550, 'beko', no).
+
+% regla para buscar electrodomesticos segun sus caracteristicas
+buscar_electrodomestico(Tipo, CapacidadMin, Eficiencia, FuncionesDeseadas, PrecioMax, Inteligente, Resultado) :-
+    electrodomestico(Resultado, Tipo, Capacidad, EficienciaEnergetica, Funciones, Precio, _, Inteligente),
+    Capacidad >= CapacidadMin,
+    Precio =< PrecioMax,
+    eficiencia_compatible(EficienciaEnergetica, Eficiencia),
+    funciones_compatibles(Funciones, FuncionesDeseadas).
+
+% verifica que la eficiencia energetica sea igual o superior
+eficiencia_compatible(Eficiencia, EficienciaRequerida) :-
+    ordenar_eficiencia(Eficiencia, NivelActual),
+    ordenar_eficiencia(EficienciaRequerida, NivelRequerido),
+    NivelActual =< NivelRequerido.
+
+% niveles de eficiencia energetica en orden
+ordenar_eficiencia('a+++ ', 1).
+ordenar_eficiencia('a++', 2).
+ordenar_eficiencia('a+', 3).
+ordenar_eficiencia('a', 4).
+ordenar_eficiencia('b', 5).
+
+% verifica si las funciones solicitadas estan en la lista de funciones del electrodomestico
+funciones_compatibles([], _).
+funciones_compatibles([Funcion|T], FuncionesDeseadas) :-
+    member(Funcion, FuncionesDeseadas),
+    funciones_compatibles(T, FuncionesDeseadas).
