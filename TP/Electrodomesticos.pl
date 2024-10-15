@@ -11,7 +11,7 @@ clearScreen :- write('\e[H\e[2J').
 % Cargar conocimiento
 cargarConocimiento :-
     retractall(electrodomestico(_,_,_,_,_,_,_,_)),
-    consult('bdTP.txt').  % Cambiar ruta si es necesario
+    consult('/workspaces/IA/TP/BD.txt').  % Cambiar ruta si es necesario
 
 % Identificar usuario
 identificacionUsuario(Usuario) :-
@@ -145,7 +145,7 @@ validarRespuestaPrecio(_, Tipo, Capacidad, Eficiencia, Funciones) :-
 pedirPrecio(Tipo, Capacidad, Eficiencia, Funciones) :-
     write("¿cual es tu presupuesto maximo en dolares? "),
     read(Precio),
-    writeln("¡muy bien! buscare electrodomesticos por debajo de $"), write(Precio), writeln("."), 
+    writeln("¡muy bien! buscare electrodomesticos por debajo de $"), write(Precio), writeln("."),
     buscarElectrodomesticos(Tipo, Capacidad, Eficiencia, Funciones, Precio).
 
 % Buscar electrodomesticos por tipo y especificaciones
@@ -215,21 +215,6 @@ recomendame :-
 despedirUsuario(Usuario) :-
     nl, write("Gracias por usar el sistema, "), write(Usuario), writeln("! Que tengas un buen dia.").
 
-% Agregar electrodomestico manualmente
-agregarElectrodomestico :-
-    writeln("Vamos a agregar un nuevo electrodomestico al sistema."),
-    write("Nombre del electrodomestico: "), read(Nombre),
-    write("Tipo (ej: refrigerador, lavadora): "), read(Tipo),
-    write("Capacidad (en litros): "), read(Capacidad),
-    write("Eficiencia energetica (ej: A++, A+): "), read(Eficiencia),
-    write("Funciones (lista ej: ['No Frost', 'Instaview']): "), read(Funciones),
-    write("Precio: "), read(Precio),
-    write("Marca: "), read(Marca),
-    write("¿Es inteligente? [s/n]: "), read(InteligenteRes),
-    (InteligenteRes == 's' -> Inteligente = si; Inteligente = no),
-    assertz(electrodomestico(Nombre, Tipo, Capacidad, Eficiencia, Funciones, Precio, Marca, Inteligente)),
-    writeln("Electrodomestico agregado correctamente.").
-
 % Subset
 subset([], _).
 subset([H|T], List) :- member(H, List), subset(T, List).
@@ -239,13 +224,11 @@ menu :-
    %% clearScreen,
     writeln("¿Que te gustaria hacer hoy?"),
     writeln("1. Buscar un electrodomestico"),
-    writeln("2. Agregar un nuevo electrodomestico al sistema"),
-    writeln("3. Salir"),
-    write("Elige una opcion (1-3): "), read(Opcion),
+    writeln("2. Salir"),
+    write("Elige una opcion (1-2): "), read(Opcion),
     ejecutarOpcion(Opcion).
 
 % Ejecutar la opcion elegida por el usuario
 ejecutarOpcion(1) :- recomendame, nl, menu.
-ejecutarOpcion(2) :- agregarElectrodomestico, nl, menu.
-ejecutarOpcion(3):-writeln('Adios.').
+ejecutarOpcion(2):-writeln('Adios.').
 ejecutarOpcion(_):-writeln('Opcion No valida'),menu.
