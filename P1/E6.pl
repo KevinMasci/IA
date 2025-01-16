@@ -36,3 +36,6 @@ ciudad(diego, casilda).
 ciudad(laura, rosario).
 ciudad(mauro, funes).
 
+formar_banda(C,P1,P2,P3):-ciudad(P1,C), instrumento(P1,guitarrista),
+    ciudad(P2,C), instrumento(P2,cantante),
+    ciudad(P3,C), instrumento(P3,baterista), P1\=P2, P2\=P3, P1\=P3.
